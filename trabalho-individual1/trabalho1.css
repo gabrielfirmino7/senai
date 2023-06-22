@@ -1,0 +1,118 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: white;
+   
+}
+section{
+    padding: 10%;
+}
+.capa{
+    background-color:#666666;
+    height: 80vh;
+    text-align: center;
+
+}
+.logosenai{
+width: 200;
+height: 200px;
+
+
+}
+.Multimidia{
+    font-size: 100px;
+    ;
+}
+
+.pag2{
+background-color: #BB0000;
+height: 80vh;
+display: flex;
+align-items: center;
+}
+.perfil{
+    height: 400px;
+    width: 400px;
+    padding: 10%;
+    
+}
+.nomealuno{
+    font-size: 50px;
+    
+}
+
+.sobremim{
+    font-size: 20px;
+}
+.pag3{
+    background-color: black;
+    display: flex;
+    height: 60vh;
+    align-items: center;
+
+}
+
+.imagens{
+    flex: 1;
+    text-align: center;
+}
+
+.pag4{
+    background: #BB0000;
+    height: 80vh;
+    display: flex;
+
+}
+.logocaven{
+flex:1;
+}
+.imglogo{
+size: 50px;
+}
+.sobrecaven{ 
+    font-size: 25px;
+    flex: 1;
+
+}
+.grupname{
+    font-size: 50px;
+}
+.linkcaven{
+    list-style: none;
+    color:white
+
+}
+
+.pag5{
+background-color: #666666;
+height: 80vh;
+
+
+}
+.grupos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top:4rem;
+    gap: 150px;
+}
+
+.retangulo{
+    width: 200px;
+    margin: 5%;
+
+
+}
+.quadrada{
+    width: 100px;
+    margin: 5%;
+  
+
+}
+.logos{
+
+}
+.link{
+    color: white;
+}
