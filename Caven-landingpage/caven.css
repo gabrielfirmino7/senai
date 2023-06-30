@@ -1,0 +1,422 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: black;
+}
+/* Carol */
+.backgrond{
+    height: 100vh;
+}
+.logo {
+    height: 70px;
+    /* padding: 20px; */
+}
+.button-capa button{
+    background-color: #5DDEA2;
+    padding: 10px;
+    color: black;
+    border: none;
+    margin: 10px;
+}
+button:hover{
+    box-shadow: 1px 1px 1px 1px #ffffff;
+    background-color: #793B94;
+    transform: scale(1.2);
+    color: #5DDEA2;
+    font-weight: bold;
+} 
+nav{
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+.apresentacao{
+    margin-left: 14%;
+    margin-top: 12%;
+}
+.apresentacao h1{
+    color:#5DDEA2;
+    font-size: 68px;
+}
+.apresentacao p{
+    color: white;
+    font-size: 17px;
+    margin-top: 1rem;
+    line-height: 25px;
+    width: 500px;
+}
+.menu{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 1%;
+}
+.lista{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.vazia{
+    width: 20px;
+}
+.button-capa{
+    padding: 1%;
+}
+/* Fim Carol */
+
+/* Patricia */
+.planos{
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+}
+.deassinatura{
+    text-align: center;
+    color: white;
+  }
+
+  .planos-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .plano {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 10px;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .plano h2 {
+    color: #ffffff;
+  }
+
+  .plano p {
+    color: #ffffff;
+    padding: 16px;
+  }
+
+  .plano .preco {
+    font-size: 24px;
+    color: #BE70E0;
+    margin-top: 10px;
+  }
+
+  .plano .btn-assinar {
+    background-color: #793B94;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .btn-assinar:hover{
+    box-shadow: 1px 1px 1px 1px #ffffff;
+    background-color: #5DDEA2;
+    transform: scaleX(1,2);
+    color: #BE70E0;
+    font-weight: bold;
+  }
+  /* Final PAtricia */
+  
+  /* Lillian */
+  .beneficios{
+    background-color:black;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 90vh;
+   margin: 0%;
+   justify-content: space-between;
+   /* padding: 15%; */
+   /* margin: 0%
+   
+   gap: 300px;
+   width: ; */
+   display: flex;
+}
+.beneficio{
+    list-style: circle;
+    padding: 10px;
+    height: 100vh
+}
+.caixa1 h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.beneficios ul{
+    color: rgb(255, 255, 255);
+}
+.beneficios p{
+    color: rgb(255, 255, 255);
+}
+    .beneficios h2{
+        background-color: #be70e000;
+        height: 15;
+    }
+.caixa1 {
+    border: 10px ridge #b66cd5;
+    background-color: rgba(154, 32, 171, 1);
+    width: 30vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;    
+}
+.caixa2 {
+    border: 8px ridge #b66cd5;
+    background-color: rgba(154, 32, 171, 1);
+    width: 30vw;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.caixa2 p{
+    padding: 16px;
+    color: white;
+}
+.caixa2 h2{
+    color: white;
+    text-align: center;
+
+}
+.caixa2 button{
+    background-color: #793B94;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+ .beneficios img{
+    width: 50VW;
+    text-align: right;
+    background-position: right top;
+ }
+ .textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 80px;
+ }
+ .caixa2 a {
+    text-align: center;
+ }
+/* Fim Lillian */
+
+/* Gabriel */
+
+.catalogo-caven{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+h2{ 
+    
+    color: white;
+}
+/* 1 parte catalogo 
+.corpo-catalogo{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    width: 100%;
+    background-color:black ;
+}
+.catalogo-caven{
+height: 520px;
+width: 935px;
+border-radius: 20px;
+overflow: hidden;
+position: absolute;
+top:50%;
+left:50%;
+transform: translate( -50%,-50%);
+}
+.recentes{
+    padding-top: 25px;
+    text-align: center;
+   
+}
+
+
+.navegacao{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+   transform: translate(-50%);
+    display: flex;
+
+
+}
+
+
+.barra{
+    width: 90px;
+    height: 22px;
+    border: 2px solid #5DDEA2;
+    margin: 6px;
+    border-radius: 5px;
+    cursor:pointer ;
+    transition: 0.4s;
+}
+.barra:hover{
+    background-color:#5DDEA2;
+}
+
+
+input{
+    display: none;
+}
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+.slide{
+    width: 20%;
+    transition: .6s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+
+
+}
+#slide1:checked~.s1{
+    margin-left:0 ;
+
+
+}
+#slide2:checked~.s1{
+    margin-left: -20%;
+}
+#slide3:checked~.s1{
+    margin-left: -40%;
+}
+#slide4:checked~.s1{
+    margin-left: -60%;
+}
+#slide5:checked~.s1{
+    margin-left: -80%;
+}
+
+
+.slide{
+    overflow: hidden
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+    transition:400ms;
+}
+.slide:hover img{
+scale: 120%;
+}/* fim da 1 parte */
+
+
+
+/* 2parte catalogo */
+
+
+.corpo-catalogo2{
+    padding-top: 3%;
+    margin: 0%;
+    padding: 0%;
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+
+.zoom{
+    max-width: 15rem;
+    max-height:10rem ;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px;
+
+
+}
+.zoom:hover{
+    border-color: #5DDEA2;
+    border-style: solid;
+    border-width: 3px;
+}
+
+
+.zoom img{
+height: 100%;
+width: 100%;
+    transition: 400ms;
+cursor: pointer;
+}
+
+
+.zoom:hover img{
+    scale: 120%;
+
+
+}
+.rolar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/* fim da 2 parte */
+
+/* Fim Gabriel */
+
+/* Joao */
+.mockup{
+    height: 85vh;
+    background-color:black;
+    font-size: medium;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content:space-between ;
+}
+.mockup2 {
+    padding-right: 8rem;
+    /* height: 80vh; */
+}
+.mockup2 p{
+    padding-top: 10px;
+}
+.mockup img{
+    height: 600px;
+}
+.mockup h2{
+    font-size: 50px;
+    /* text-align: center; */
+}
